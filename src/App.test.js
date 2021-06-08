@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const rootElement = screen.getByText(/Material-UI DataGrid performance measurements/i);
+  expect(rootElement).toBeInTheDocument();
 });
